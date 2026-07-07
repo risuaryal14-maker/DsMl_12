@@ -1,3 +1,19 @@
-number=123445567
-type=type(number)
-print(type)
+"""PYTHON NUMERIC DATA TYPES
+1. INTEGERS--> WHOLE NUMBERS, POSITIVE OR NEGATIVE, WITHOUT DECIMALS, OF UNLIMITED LENGTH
+2. FLOATS--> NUMBERS, POSITIVE OR NEGATIVE, CONTAINING ONE OR MORE DECIMALS
+3. COMPLEX NUMBERS--> NUMBERS, POSITIVE OR NEGATIVE, CONTAINING A REAL AND IMAGINARY PART"""
+
+# INTEGERS
+number = 123445567
+data_type = type(number)
+print(data_type)
+
+# FLOATS
+number2 = 12.3456789
+data_type2 = type(number2)
+print(data_type2)
+
+# COMPLEX NUMBERS
+number3 = 3 + 4j
+data_type3 = type(number3)
+print(data_type3)
