@@ -31,6 +31,11 @@ print(3)
 person2=dict([('name','rickson'),('college','islington'),('address','nepal')])
 print(person2)
 
+#create dictionary with value as a list
+print(4)
+person3={'name':'rickson', 'telephone':[980000001, 9800000002, 9800000003]}
+print(person3)
+
 # access value using key name in []
 print(4)
 dict2={'name':'rickson', 'college':'islington','num':9800000000}
@@ -59,5 +64,9 @@ print(8)
 dict6={'name':'rickson', 'college':'islington','num':9800000000}
 print(dict6.values())
 
+#items--> returns all items present in the dictionary, each items will be tuple 
+print(9)
+dict7={'name':'rickson', 'college':'islington','num':98122344534}
+print(dict7.items())
 
 
