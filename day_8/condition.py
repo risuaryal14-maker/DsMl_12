@@ -58,10 +58,18 @@ print('even'if num%2==0 else 'odd')
 
 students=[30,20,40]
 if any(student>=40 for student in students):
-    print('at least one student passed')'''
+    print('at least one student passed')
 
 persons=['rita', 'sita', 'git ', 'maya']
 if any(person=='isha' for person in persons):
     print('one name is right')
 else:
-    print('wrong name')
+    print('wrong name')'''
+
+#all() Function with if
+students=[50,40,70]
+if all(student>=50 for student in students):
+    print('all student are passed ')
+else:
+    print('some students are failed')
+    
