@@ -10,7 +10,7 @@ true, people will dance.
 
 --Similarly, in python programming, we use
 conditions to determine which set of instructions to
-execute
+execute.'''
 #if else
 age=16
 if age>=18:
@@ -64,7 +64,7 @@ persons=['rita', 'sita', 'git ', 'maya']
 if any(person=='isha' for person in persons):
     print('one name is right')
 else:
-    print('wrong name')'''
+    print('wrong name')
 
 #all() Function with if
 students=[50,40,70]

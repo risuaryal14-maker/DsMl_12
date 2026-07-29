@@ -47,9 +47,6 @@ print(2 in i)
 #subset()--> checks if a set is a subset of another set and returns True or False.
 j={1, 2, 3}
 k={1, 2, 3, 4, 5}
-print(k<=j)                           #both syntax works for subset() method
+print(j<=k)                           #both syntax works for subset() method
 print(j.issubset(k))
 
-t=(1, 2, 3)
-t2=(3, 4, 5)
-print(t<t2)

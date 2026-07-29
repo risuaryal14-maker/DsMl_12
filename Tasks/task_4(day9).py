@@ -15,5 +15,5 @@ while True:
     print('try again')
     guess_number=int(input('guess the number:'))
     if guess_number==3:
-        print('you won')
+        print('correct guess')
         break

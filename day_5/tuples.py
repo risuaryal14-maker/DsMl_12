@@ -30,7 +30,7 @@ tup3=(0, 0, 0, 1)
 print(any(tup3))
 
 #all()--> returns True if all elements in a tuple are True
-tup4=(1, 2, 3, rickson, 3.5)
+tup4=(1, 2, 3, 'rickson', 3.5)
 print(all(tup4))
 
 #sorted()--> returns a sorted list of elements in a tuple

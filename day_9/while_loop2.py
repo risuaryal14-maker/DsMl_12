@@ -32,6 +32,7 @@ while num2<5:
     print(num2)
 print('loop ended')
 
+#pass statement
 print('fifth--------->')
 num3=0
 while num3<5:
