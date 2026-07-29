@@ -36,3 +36,12 @@ def add(a,b):
 #function calll
 result=add(3,5)
 print(f'total sum:{result}')
+
+
+#defult arguments
+print('seventh----->')
+def greet(name,ending='thank you'):
+    print(f'good day,{name}')
+    print(ending)
+greet('rickson')
+greet('rohan','thanks')
