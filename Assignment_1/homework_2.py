@@ -1,5 +1,5 @@
 #all this assigements are done with user-defined function
-'''
+
 #write the greatest number using python
 def greatest(a,b,c):
     if a>b and a>c:
@@ -54,11 +54,12 @@ def remove(lst,name):
         return lst
 lst=['rohan', 'sita', 'gita', 'an']
 
-print(remove(lst,'an'))'''
+print(remove(lst,'an'))
 
 #write a python function program to multiply the given number
 
 def mul(n):
     for i in range(0, 11):
         print(f'{n} X {i}= {n*i}')
-mul(5)
+n=int(input('write the number:'))
+print(f'{mul(n)}')
