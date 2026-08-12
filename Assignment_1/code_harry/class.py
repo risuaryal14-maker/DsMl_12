@@ -65,5 +65,19 @@ class employee():
         self.language=language
         self.salary=salary
         print('hey')
-risu=employee('rickson',130000,'javascript')
+risu=employee('rickson','python',130000)
 print(risu.name,risu.salary, risu.language)
+
+
+print('sixth--------->')
+class employee():
+    salary=120000
+    language='javascript'
+    def __init__(self,name,language,salary):
+        self.name=name
+        self.language=language
+        self.salary=salary
+rickson=employee('rickson','python',130000)
+print(rickson.salary, rickson.name, rickson.language)
+
+print('seventh--------->')
